@@ -13,10 +13,11 @@ def batch_badge_creator(arr) #map
   new_arr
 end
 
-def assign_rooms(arr_of_names)
-  counter = 
-  arr_of_names.map do |attendee|
+def assign_rooms(attendees)
+  counter = 0
+  attendees.map do |attendee|
     #binding.pry
    "Hello, #{attendee}! You'll be assigned to room #{counter += 1}!"
   end
+  
 end
