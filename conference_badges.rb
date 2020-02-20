@@ -19,5 +19,6 @@ def assign_rooms(attendees)
     #binding.pry
    "Hello, #{attendee}! You'll be assigned to room #{counter += 1}!"
   end
-  
 end
+
+def printer
